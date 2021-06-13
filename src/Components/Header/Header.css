@@ -1,1 +1,23 @@
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 
+}
+
+.navBar {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.shippingNote {
+  width: 20%;
+}
+
+.languageIndicator {
+  width: 20px;
+  height: 20px;
+  margin-top: 2vh;
+}
