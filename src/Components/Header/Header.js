@@ -36,12 +36,19 @@ function Header() {
         <div className='padding'> </div>
       </section>
       <section className='bottom'>
-        <div className='padding'> </div>
-        <div className='logoPics'>
-          <img className='starWarsLogo' src={starWarsLogo} />
-          <img className='bigUggLogo' src={uggLogo} />
+        <div className='logoArea'>
+          <div className='padding'> </div>
+          <div className='logoPics'>
+            <img className='starWarsLogo' src={starWarsLogo} />
+            <img className='bigUggLogo' src={uggLogo} />
+          </div>
+          <div className='padding'> </div>
         </div>
-        <div className='padding'> </div>
+        <div className='copyArea'>
+          <div className='padding'> </div>
+          <p className='copy'> JUST IN TIME FOR THE LAUNCH OF STAR WARS: THE LAST JEDI, OUR DROID COLLECTION BRINGS THE KID-FAVOURITE CHARACTERS BB-8 AND R2-D2 TO LIFE IN SOFT, LIGHTWEIGHT BOOTS. NOW YOUR LITTLE ONE CAN CHANNEL THE FORCE AT SCHOOL, ON THE PLAYGROUND, OR ANY ADVENTURE IN A GALAXY FAR, FAR AWAY...</p>
+          <div className='padding'> </div>
+        </div>
       </section>
     </article>
   );
