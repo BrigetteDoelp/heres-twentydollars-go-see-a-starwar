@@ -5,7 +5,7 @@
 
 }
 
-.navBar {
+.topNavBar {
   width: 20%;
   display: flex;
   flex-direction: row;
@@ -17,7 +17,33 @@
 }
 
 .languageIndicator {
-  width: 20px;
   height: 20px;
+  margin-top: 2vh;
+}
+
+.middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.middleNavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.storeSections{
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.littleUggLogo {
+  height: 5vh;
+  margin-top: 1vh;
+}
+
+.searchIcon, .cartIcon {
+  height: 2vh;
   margin-top: 2vh;
 }
