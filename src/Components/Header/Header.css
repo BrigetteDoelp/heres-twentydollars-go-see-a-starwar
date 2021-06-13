@@ -1,3 +1,7 @@
+p {
+  font-family: 'Montserrat';
+}
+
 .top {
   display: flex;
   flex-direction: row;
@@ -48,16 +52,20 @@
   margin-top: 2vh;
 }
 
+.logoArea {
+  display: flex;
+  justify-content: space-around;
+}
+
 .logoPics {
   display: flex;
   flex-direction: column;
-  /* width: 20%; */
 }
 
 .bottom {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
 }
 
 .starWarsLogo {
@@ -75,4 +83,15 @@
   padding-right: 5em;
   padding-left: 5em;
   padding-top: 2em;
+}
+
+.copyArea {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.copy {
+  width: 60%;
 }
