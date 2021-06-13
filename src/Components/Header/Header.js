@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import uggLogo from '../../Assets/ugg_logo.png';
+import starWarsLogo from '../../Assets/starwarsdeckerslogo.png';
 import cart from '../../Assets/cart.png';
 import search from '../../Assets/search.png';
 import flag from '../../Assets/united-states.png';
@@ -35,6 +36,12 @@ function Header() {
         <div className='padding'> </div>
       </section>
       <section className='bottom'>
+        <div className='padding'> </div>
+        <div className='logoPics'>
+          <img className='starWarsLogo' src={starWarsLogo} />
+          <img className='bigUggLogo' src={uggLogo} />
+        </div>
+        <div className='padding'> </div>
       </section>
     </article>
   );
