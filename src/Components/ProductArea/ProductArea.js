@@ -10,15 +10,28 @@ function ProductArea() {
   return (
     <article className='productArea'>
       <section className='bb8'>
-        <img className='singlePair' src={boot1front} />
-        <img className='singlePair' src={boot1back} />
+        <div className='bb81'>
+          <img className='singlePair' src={boot1front} />
+          <p className='productName'>KIDS CLASSIC || BB-8</p>
+        </div>
+        <div className='bb82'>
+          <img className='singlePair' src={boot1back} />
+          <p className='productName'>TODDLERS CLASSIC || BB-8</p>
+        </div>
       </section>
       <section className='r2d2'>
-        <img className='singlePair' src={boot2front} />
-        <img className='singlePair' src={boot2back} />
+        <div>
+          <img className='singlePair' src={boot2front} />
+          <p className='productName'>KIDS CLASSIC || R2-D2</p>
+        </div>
+        <div>
+          <img className='singlePair' src={boot2back} />
+          <p className='productName'>TODDLERS CLASSIC || R2-D2</p>
+        </div>
       </section>
       <section className='goblinShoes'>
         <img className='goblinShoePics' src={goblinShoes} />
+        <p className='productName'>BABY CLASSIC || R2-D2</p>
       </section>
     </article>
   );
