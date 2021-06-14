@@ -1,0 +1,11 @@
+/* .productArea {
+  display: flex;
+  flex-direction: column;
+} */
+
+.singlePair, .goblinShoePics {
+  height: 40vh;
+  margin-top: 15vh;
+  margin-right: 10vh;
+  margin-left: 10vh;
+}
