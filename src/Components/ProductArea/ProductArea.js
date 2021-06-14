@@ -8,9 +8,19 @@ import goblinShoes from '../../Assets/goblin_shoes.png';
 
 function ProductArea() {
   return (
-    <div>
-      <p>ProductArea</p>
-    </div>
+    <article className='productArea'>
+      <section className='bb8'>
+        <img className='singlePair' src={boot1front} />
+        <img className='singlePair' src={boot1back} />
+      </section>
+      <section className='r2d2'>
+        <img className='singlePair' src={boot2front} />
+        <img className='singlePair' src={boot2back} />
+      </section>
+      <section className='goblinShoes'>
+        <img className='goblinShoePics' src={goblinShoes} />
+      </section>
+    </article>
   );
 }
 
