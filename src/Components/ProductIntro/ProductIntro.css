@@ -48,17 +48,24 @@
 @media screen and (max-width: 414px) {
 
   #warpSpeed {
-    height: 57vh;
-    width: 57vh;
+    height: 56.5vh;
+    width: 56.5vh;
     z-index: -1000;
   }
 
   .bootOverlay {
-    width: 40vh;
-    padding-top: 10vh;
+    width: 30vh;
+    padding-top: 14vh;
     padding-bottom: 8vh;
-    padding-left: 40vh;
-    padding-right: 40vh;
+    padding-left: 1px;
+    padding-right: 1px;
   }
+
+  .perkDescription {
+    text-align: center;
+    max-width: 70%;
+  }
+
+
 
 }
