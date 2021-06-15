@@ -4,6 +4,10 @@ p {
   font-family: 'Montserrat';
 }
 
+.mobileHeader, .mobileBottom {
+  display: none;
+}
+
 /* GENERAL */
 
 .top {
@@ -101,4 +105,44 @@ p {
   padding-right: 5em;
   padding-left: 5em;
   padding-top: 2em;
+}
+
+/* BREAKPOINTS */
+
+@media screen and (max-width: 414px) {
+
+  .top, .middle {
+    display: none;
+  }
+
+  .copy {
+    width: 85%;
+    text-align: center;
+  }
+
+  .top {
+    display: none;
+  }
+
+  .mobileHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    background: black;
+  }
+
+  .mobileUggLogo {
+    height: 3vh;
+  }
+
+  .mobileIcon {
+    height: 3vh;
+  }
+
+  .starWarsLogo {
+    margin-top: 9vh;
+  }
+
 }
