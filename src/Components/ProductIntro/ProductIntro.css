@@ -5,12 +5,19 @@
 }
 
 .bootOverlay {
-  background-color: black;
+  /* background-color: black; */
   width: 60vh;
   padding-top: 8vh;
   padding-bottom: 8vh;
   padding-left: 40vh;
   padding-right: 40vh;
+}
+
+#warpSpeed {
+  background-color: #000;
+  position: absolute;
+  height: 75vh;
+  z-index: -1000;
 }
 
 .rewardsLogo {
