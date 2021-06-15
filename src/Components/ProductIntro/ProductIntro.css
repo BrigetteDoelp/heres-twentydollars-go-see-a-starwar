@@ -42,3 +42,23 @@
   width: 150vh;
   z-index: -1000;
 }
+
+/* BREAKPOINTS */
+
+@media screen and (max-width: 414px) {
+
+  #warpSpeed {
+    height: 57vh;
+    width: 57vh;
+    z-index: -1000;
+  }
+
+  .bootOverlay {
+    width: 40vh;
+    padding-top: 10vh;
+    padding-bottom: 8vh;
+    padding-left: 40vh;
+    padding-right: 40vh;
+  }
+
+}
