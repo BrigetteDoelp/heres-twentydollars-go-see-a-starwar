@@ -21,11 +21,11 @@ function ProductArea() {
         </div>
       </section>
       <section className='r2d2'>
-        <div>
+        <div className='r2d21'>
           <img className='singlePair' src={boot2front} />
           <p className='productName hide'>KIDS CLASSIC || R2-D2</p>
         </div>
-        <div>
+        <div className='r2d22'>
           <img className='singlePair' src={boot2back} />
           <p className='productName hide'>TODDLERS CLASSIC || R2-D2</p>
         </div>
