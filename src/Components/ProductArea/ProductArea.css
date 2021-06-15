@@ -1,3 +1,11 @@
+/* GLOBAL */
+
+p {
+  font-family: 'Montserrat';
+}
+
+/* IMAGES */
+
 .productArea {
   display: flex;
   flex-direction: column;
@@ -9,8 +17,12 @@
   flex-direction: row;
 }
 
+.goblinShoes {
+  margin-bottom: 20vh;
+}
+
+
 .singlePair {
-  /* position: relative; */
   height: 40vh;
   margin-top: 10vh;
   margin-right: 7vh;
@@ -19,9 +31,6 @@
   background-color: #f5f5f5;
 }
 
-.goblinShoes {
-  margin-bottom: 20vh;
-}
 
 .goblinShoePics {
   height: 36.65vh;
@@ -33,7 +42,10 @@
   background-color: #f5f5f5;
 }
 
+/* TEXT */
+
 .productName {
+  text-align: center;
   position: relative;
   margin-top: -5.56vh;
   margin-left: 7vh;
@@ -44,10 +56,10 @@
 }
 
 .productNameGoblin {
+  text-align: center;
   position: relative;
   background: #c9c9c9;
   margin-top: -5.66vh;
-  margin-bottom: -1vh;
   padding: 1.4vh;
 }
 
