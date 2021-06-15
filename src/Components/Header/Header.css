@@ -4,6 +4,11 @@ p {
   font-family: 'Montserrat';
 }
 
+button {
+  border: none;
+  background: none;
+}
+
 .mobileHeader, .mobileBottom {
   display: none;
 }
@@ -72,7 +77,7 @@ p {
 
 .languageIndicator {
   height: 20px;
-  margin-top: 2vh;
+  margin-top: .5vh;
 }
 
 .littleUggLogo {
@@ -82,7 +87,7 @@ p {
 
 .searchIcon, .cartIcon {
   height: 2vh;
-  margin-top: 2vh;
+  margin-top: .5vh;
 }
 
 .logoPics {
