@@ -1,30 +1,12 @@
+/* GENERAL */
+
 .productIntro {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.bootOverlay {
-  /* background-color: black; */
-  width: 60vh;
-  padding-top: 8vh;
-  padding-bottom: 8vh;
-  padding-left: 40vh;
-  padding-right: 40vh;
-}
-
-#warpSpeed {
-  /* background-color: #000; */
-  position: absolute;
-  height: 75vh;
-  width: 150vh;
-  z-index: -1000;
-}
-
-.rewardsLogo {
-  padding-top: 12vh;
-  width: 24vh;
-}
+/* TEXT */
 
 .rewardsTitle {
   font-family: 'Cormorant Garamond';
@@ -35,4 +17,55 @@
   font-family: 'Montserrat';
   max-width: 35%;
   margin-top: -4vh;
+}
+
+/* IMAGES */
+
+.bootOverlay {
+  width: 60vh;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+  padding-left: 40vh;
+  padding-right: 40vh;
+}
+
+.rewardsLogo {
+  padding-top: 12vh;
+  width: 24vh;
+}
+
+/* ANIMATION */
+
+#warpSpeed {
+  position: absolute;
+  height: 75vh;
+  width: 150vh;
+  z-index: -1000;
+}
+
+/* BREAKPOINTS */
+
+@media screen and (max-width: 414px) {
+
+  #warpSpeed {
+    height: 56.5vh;
+    width: 56.5vh;
+    z-index: -1000;
+  }
+
+  .bootOverlay {
+    width: 30vh;
+    padding-top: 14vh;
+    padding-bottom: 8vh;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .perkDescription {
+    text-align: center;
+    max-width: 70%;
+  }
+
+
+
 }

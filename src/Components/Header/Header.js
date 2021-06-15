@@ -5,6 +5,11 @@ import starWarsLogo from '../../Assets/starwarsdeckerslogo.png';
 import cart from '../../Assets/cart.png';
 import search from '../../Assets/search.png';
 import flag from '../../Assets/united-states.png';
+import mobileUggLogo from '../../Assets/mobileugglogo.png';
+import mobileBurger from '../../Assets/mobileburger.png';
+import mobileCart from '../../Assets/mobilecart.png';
+import mobileUserProfile from '../../Assets/mobileuserprofile.png';
+import mobileSearch from '../../Assets/mobilesearch.png';
 
 
 function Header() {
@@ -18,6 +23,13 @@ function Header() {
           <p>UGG Rewards</p>
           <img className='languageIndicator' src={flag} />
         </nav>
+      </section>
+      <section className='mobileHeader'>
+        <img className='mobileIcon' src={mobileBurger}/>
+        <img className='mobileIcon' src={mobileSearch}/>
+        <img className='mobileUggLogo' src={mobileUggLogo} />
+        <img className='mobileIcon' src={mobileUserProfile} />
+        <img className='mobileIcon' src={mobileCart} />
       </section>
       <section className='middle'>
         <div className='padding'> </div>
