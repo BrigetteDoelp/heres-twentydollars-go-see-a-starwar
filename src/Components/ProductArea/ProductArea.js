@@ -5,6 +5,7 @@ import boot1front from '../../Assets/boots_1__front__x.png';
 import boot2back from '../../Assets/boots_2__back__x.png';
 import boot2front from '../../Assets/boots_2__front__x.png';
 import goblinShoes from '../../Assets/goblin_shoes.png';
+import mobileGoblinShoe from '../../Assets/goblin_shoe_1.png';
 
 function ProductArea() {
   return (
@@ -31,6 +32,7 @@ function ProductArea() {
       </section>
       <section className='goblinShoes'>
         <img className='goblinShoePics' src={goblinShoes} />
+        <img className='goblinShoePic' src={mobileGoblinShoe} />
         <p className='productNameGoblin hide'>BABY CLASSIC || R2-D2</p>
       </section>
     </article>
