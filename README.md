@@ -39,3 +39,7 @@ https://excalidraw.com/#json=6208877607518208,Qxhyms8hiCr-o5J54XmNZw
 <p align="center">
    <img src="https://64.media.tumblr.com/1140da5e5e1c12a046d7a543a061cb1e/7c5292b5b5c4272b-60/s2048x3072/c7e117ad1c47376050181774bd22fd4502866eaf.jpg">
 </p>
+
+---
+permalink: /index.html
+---
