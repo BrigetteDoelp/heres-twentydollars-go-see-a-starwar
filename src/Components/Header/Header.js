@@ -18,32 +18,32 @@ function Header() {
       <section className='top'>
         <p className='shippingNote'>Free shipping. Free returns.</p>
         <nav className='topNavBar'>
-          <p>Login</p>
-          <p>Join</p>
-          <p>UGG Rewards</p>
-          <img className='languageIndicator' src={flag} />
+          <button>Login</button>
+          <button>Join</button>
+          <button>UGG Rewards</button>
+          <button> <img className='languageIndicator' src={flag} /> </button>
         </nav>
       </section>
       <section className='mobileHeader'>
-        <img className='mobileIcon' src={mobileBurger}/>
-        <img className='mobileIcon' src={mobileSearch}/>
-        <img className='mobileUggLogo' src={mobileUggLogo} />
-        <img className='mobileIcon' src={mobileUserProfile} />
-        <img className='mobileIcon' src={mobileCart} />
+        <button> <img className='mobileIcon' src={mobileBurger}/> </button>
+        <button> <img className='mobileIcon' src={mobileSearch}/> </button>
+        <button> <img className='mobileUggLogo' src={mobileUggLogo} /> </button>
+        <button> <img className='mobileIcon' src={mobileUserProfile} /> </button>
+        <button> <img className='mobileIcon' src={mobileCart} /> </button>
       </section>
       <section className='middle'>
         <div className='padding'> </div>
         <nav className='middleNavBar'>
-          <img className ='littleUggLogo storeSections' src={uggLogo} />
-          <p className='storeSections'>WOMEN</p>
-          <p className='storeSections'>MEN</p>
-          <p className='storeSections'>KIDS</p>
-          <p className='storeSections'>HOME</p>
-          <p className='storeSections'>SALE</p>
-          <p className='storeSections'>EXPLORE</p>
-          <p className='storeSections'>STORES</p>
-          <img className ='searchIcon storeSections' src={search} />
-          <img className ='cartIcon storeSections' src={cart} />
+          <button> <img className ='littleUggLogo storeSections' src={uggLogo} /> </button>
+          <button className='storeSections'>WOMEN</button>
+          <button className='storeSections'>MEN</button>
+          <button className='storeSections'>KIDS</button>
+          <button className='storeSections'>HOME</button>
+          <button className='storeSections'>SALE</button>
+          <button className='storeSections'>EXPLORE</button>
+          <button className='storeSections'>STORES</button>
+          <button> <img className ='searchIcon storeSections' src={search} /> </button>
+          <button> <img className ='cartIcon storeSections' src={cart} /> </button>
         </nav>
         <div className='padding'> </div>
       </section>
