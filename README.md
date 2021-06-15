@@ -20,6 +20,10 @@
 - The warp speed animation. I wound up having to impliment an external package to get the result that I desired. While it did take some doing to get the packing to play nice with the rest of my code, I would have preferred to have made the animation myself in 'GSAP'. 
 - Interpreting the project spec in general. I was made to understand that the instructions were intentionally vague, and that was part of the challenge itself. However, I often find myself spinning my gears over vague instruction, and it took a little bit of doing to break through that and just go with my gut in terms of what was going to be acceptable for the completion of the project.
 
+## Deployed Page
+
+**[Ideally this is where the site will be deployed, but honesltly who knows if that will work by morning. I checked it before going to sleep and it was only displaying the README, so fingers crossed, lads.](https://brigettedoelp.github.io/heres-twentydollars-go-see-a-starwar/)** 
+
 ## Completed Webpage
 
 <p align="center">
